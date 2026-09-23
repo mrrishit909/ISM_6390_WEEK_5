@@ -452,7 +452,7 @@ const PROFILES = {
   },
   uniformHigh: {
     name: "Digital-Native Network",
-    pattern: "Every dimension scores 4.0 or above (the Stage 4–5 band).",
+    pattern: "Every dimension scores 3.5 or above (solidly Stage 4 or better).",
     body: "Real capability across the board, but in this industry the risk isn't a capability gap; it's over-automating a business whose actual product is a trusted human relationship during grief. The next frontier is judgment rather than more technology: using the unified family record to time and personalize aftercare and preneed outreach in ways grieving families welcome.",
     action: "Benchmark family satisfaction, not just efficiency metrics, against peer networks to check whether automation has quietly eroded the personal touch."
   },
@@ -617,7 +617,7 @@ function isAmongLowest(scores, dim) {
 function pickProfile(scores) {
   const values = DIMENSIONS.map(d => scores[d]);
   if (values.every(v => v <= 2.5)) return PROFILES.uniformLow;
-  if (values.every(v => v >= 4)) return PROFILES.uniformHigh;
+  if (values.every(v => v >= 3.5)) return PROFILES.uniformHigh;
 
   const matches = [];
   if (isAmongLowest(scores, CRI) && gapBelowOthers(scores, CRI) >= 1)
