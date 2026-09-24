@@ -60,11 +60,11 @@ Stage labels used throughout: **1 Initial / Ad hoc · 2 Developing / Reactive ·
 
 ## Dimension calibration test
 
-| Dimension | Stage 5 reference | Stage 1 reference |
+| Dimension | Stage 5 reference (named organization) | Stage 1 reference |
 |-----------|-------------------|-------------------|
-| Case & Records Infrastructure | Service Corporation International (Dignity Memorial): centralized, company-wide case and preneed records | Paper-file single-location independent home *(team to name a local example)* |
-| Family Digital Engagement | Tulip Cremation / Eirene: full arrangement completed online | Home with no website beyond a phone listing *(team to name a local example)* |
-| Operational Automation | Large consolidators (e.g., SCI) with network-wide scheduling and procurement | Whiteboard-scheduled independent home *(team to name a local example)* |
+| Case & Records Infrastructure | Service Corporation International (Dignity Memorial): centralized, company-wide case and preneed records | Archetype: a single-location, family-owned independent home that keeps each case in a paper folder, files death certificates in person or by mail, and stores preneed contracts in boxes |
+| Family Digital Engagement | Tulip Cremation / Eirene: full arrangement completed online | Archetype: an independent home whose only online presence is a directory listing with a phone number; payment by cash or check, no livestreaming |
+| Operational Automation | Large consolidators (e.g., SCI) with network-wide scheduling and procurement | Archetype: an independent home that schedules staff and the hearse on a whiteboard and reorders caskets by phoning the supplier |
 | Predictive & AI Deployment | Consolidated networks using volume forecasting for staffing and procurement | Most independent homes: purely reactive staffing |
 | Organizational Change Capacity | Networks running structured, champion-based rollouts of case-management software | Homes where a new system is bought but paper files are still kept in parallel |
 
