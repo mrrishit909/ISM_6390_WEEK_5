@@ -2,9 +2,10 @@
 
 | Member | Role |
 |--------|------|
-| *[Name]* | Framework Designer (Member A) |
-| *[Name]* | Question Author (Member B) |
-| *[Name]* | Tool Builder (Member C) |
+| Alifya Saify | Framework Designer (Member A) |
+| Disha Reddy | Question Author (Member B) |
+| Rishit Mathur | Tool Builder (Member C) |
+| Shima Kananiazari | *[Role to confirm]* |
 
 <!-- RATIONALE-START -->
 Every question in the tool asks about a system or process an outside assessor could verify by watching one case go from first call to aftercare. None asks about intent. Each answer ladder follows the same five-step logic: nothing in place, informal or manual, defined at one location, managed across the network, then optimizing and feeding other capabilities. A respondent can place themselves by asking "is this fully true today?" without guessing which answer is "right." Every question also has to separate homes within deathcare. Almost every home has a phone and some web presence, so we avoided questions every home would answer the same way.
