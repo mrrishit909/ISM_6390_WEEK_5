@@ -1,125 +1,125 @@
-# Deathcare Digital Maturity Framework & Interpretation Guide
+# Airline Digital Maturity Framework & Interpretation Guide
 
-**Industry:** Deathcare — funeral homes and funeral-home networks (at-need arrangements, preneed contracts, cremation and burial services).
-**Owner:** Member A — Framework Designer
+**Industry:** Passenger airlines (network, low-cost and regional carriers)
+**Framework Designer (Member A):** Alifya Saify
 
-## Why deathcare
+## Why airlines
 
-Digital maturity in deathcare varies more than in almost any other consumer service. At one end are consolidated networks such as Service Corporation International (Dignity Memorial brand), which run centralized case management, company-wide preneed records and online arrangement tools across hundreds of locations. At the other end are direct-to-consumer, online-first providers such as Tulip Cremation (US) and Eirene (Canada), where a family can complete an entire arrangement without visiting a building. In between sit thousands of independent, often family-owned single-location homes that still run a paper case file, a whiteboard schedule and cash-or-check payment. Because "good" here means something specific (EDRS filing, preneed retrieval, insurance assignments, livestreamed services, grief aftercare), a generic maturity quiz would miss the real gaps.
+Digital maturity varies visibly across airlines, and failures are public. In December 2022, Southwest Airlines cancelled close to 17,000 flights after its crew-scheduling process collapsed. Crews had to phone in for new assignments and waited hours on hold, and the U.S. Department of Transportation later fined the airline $140 million. Over the same years, Delta Air Lines rolled out RFID bag tracking (from 2016) and a facial-recognition "Digital ID" at major hubs (from 2021). Alaska Airlines put the AI route-planning tool Flyways into dispatch, American Airlines introduced its AI-assisted Hub Efficiency Analytics Tool (HEAT), and United Airlines introduced ConnectionSaver to hold flights for connecting passengers. Airlines all fly the same aircraft under the same safety rules, yet their digital capability differs sharply, and that is what makes the industry diagnosable.
 
 ## The five dimensions
 
-| # | Dimension | Generic capability it calibrates | One-sentence description |
-|---|-----------|----------------------------------|--------------------------|
-| 1 | **Case & Records Infrastructure** | Data infrastructure | How case files, death-certificate filings and preneed contracts are captured, governed and made retrievable across the business. |
-| 2 | **Family Digital Engagement** | Customer interaction channels | What a grieving family can do digitally: obituaries, livestreams, payment, arrangements and aftercare. |
-| 3 | **Operational Automation** | Operational automation | How much of scheduling, merchandise inventory and insurance-assignment processing runs on systems rather than phone calls and paper. |
-| 4 | **Predictive & AI Deployment** | AI/ML deployment | Whether forecasting and AI tools are in production, governed for the grief context, and prioritized against a strategy. |
-| 5 | **Organizational Change Capacity** | Organizational change capacity | Whether the organization can get funeral directors to adopt new tools and actually retire the old paper processes. |
+| # | Dimension | Generic domain it calibrates | Description |
+|---|-----------|------------------------------|-------------|
+| 1 | **Passenger & Operations Data Integration** | Data infrastructure | Whether passenger, crew, aircraft and maintenance data are connected into one trusted, timely picture. |
+| 2 | **Digital Passenger Journey** | Customer interaction channels | How much of booking, check-in, airport processing, service and disruption handling a passenger can complete digitally. |
+| 3 | **Operations & Disruption Automation** | Operational automation | How far crew recovery, aircraft turns, baggage and compensation run on systems rather than phone calls, radios and paper. |
+| 4 | **AI & Predictive Decisioning** | AI/ML deployment | Whether machine learning is in production for pricing, disruption prediction and customer communication, and governed once it is. |
+| 5 | **Frontline Change Capacity** | Organizational change capacity | Whether pilots, flight attendants, gate and ramp staff shape, adopt and fully switch to new tools. |
 
-**Independence check.** Each dimension can score high while another scores low. A home can have a polished website and livestreams (high Family Digital Engagement) on top of paper case files (low Case & Records Infrastructure), which is exactly the "Elegant Front, Broken Back Office" pattern. A consolidated network can have centralized records and automated scheduling yet impose them on unconvinced directors (low Organizational Change Capacity).
+**Independence test.** Each dimension can be high while another is low:
+- **Journey high, Ops low:** in 2022 Southwest had a full-featured app while crew recovery still ran by phone.
+- **Journey high, service channels thin:** Frontier Airlines dropped phone customer service in 2022 and moved support to digital channels. That shows a digital front end is a choice, independent of the operation behind it.
+- **Data, Ops and AI high, Change low:** an airline can buy strong data, automation and AI tools and still see crews keep paper workarounds.
+
+These are different root causes, not five labels for one capability.
 
 ## Stage 1–5 descriptions
 
-Stage labels used throughout: **1 Initial / Ad hoc · 2 Developing / Reactive · 3 Defined / Repeatable · 4 Managed / Measured · 5 Optimizing / Innovating.** Every stage below describes an observable state, and each builds on the one before.
+Stages: **1 Initial · 2 Developing · 3 Defined · 4 Managed · 5 Optimizing.** Each stage describes an observable state, and each is a clear step up from the one before.
 
-### 1. Case & Records Infrastructure
-- **Stage 1:** Each case lives in a paper folder. Death certificates are filed in person or by mail, and old preneed contracts are found by searching storage boxes, sometimes at another location.
-- **Stage 2:** Contracts are produced from digital templates and preneed sales are logged in a spreadsheet, but permits, notes and filings are still handled on paper. Nobody owns the accuracy of case records.
-- **Stage 3:** A case management system holds the full case at each location, and death certificates go through the state's electronic death registration system (EDRS), keyed in by hand. A named role reviews records locally.
-- **Stage 4:** Case management is centralized across all locations with EDRS filing integrated into it, so any preneed contract can be pulled up company-wide. Data-quality standards are monitored across the network.
-- **Stage 5:** A governed, company-wide data platform links case history, preneed contracts, payment and insurance status, and family communications. Forecasting and engagement tools are built on it rather than on separate copies.
+### 1. Passenger & Operations Data Integration
+- **Stage 1:** Reservations, loyalty, crew and maintenance records sit in separate systems with no shared identifiers. During disruptions, teams coordinate by phone, radio and whiteboards, and technical logs are on paper.
+- **Stage 2:** Records are matched by hand or in occasional batch jobs, and teams swap updates by email and spreadsheet. Paper tech logs are typed in after the flight, and IT runs the systems, but nobody owns the data.
+- **Stage 3:** A central warehouse is loaded nightly, and a shared ops dashboard exists but is updated by hand. Electronic tech logs are used at main bases, and named owners hold documented definitions for each core data domain.
+- **Stage 4:** A customer profile updated within minutes is visible to agents and the app, and an integrated ops platform receives automatic feeds from aircraft, crew and passenger systems. Electronic tech logs are fleet-wide, and data-quality metrics reach leadership monthly.
+- **Stage 5:** The real-time data drives automated decisions: rebooking priority, network re-planning and maintenance alerts from in-flight sensor data. Automated monitoring catches data-quality breaks, and the metrics are tied to operational KPIs.
 
-### 2. Family Digital Engagement
-- **Stage 1:** No website, or only a phone number and address. Payment is cash or check in person, livestreaming is not offered, and contact ends at the service.
-- **Stage 2:** A static website lists services and plain-text obituaries. Livestreaming happens only if a family asks and staff improvise it; aftercare is a card mailed at a fixed interval.
-- **Stage 3:** Families can share a digital obituary, sign an online guestbook and pay at-need balances online. Livestreaming is a standing service with dedicated equipment, and a standard grief-resource email sequence runs after the service.
-- **Stage 4:** Families browse merchandise, pay (including financed plans) and get livestreams by default through a family portal. Aftercare check-ins are scheduled and tracked per family, with staff follow-ups prompted.
-- **Stage 5:** A family can complete the entire arrangement conference and a preneed purchase online through a personalized portal. Livestreams are archived into a lasting tribute page, and aftercare is personalized automatically from the case record.
+### 2. Digital Passenger Journey
+- **Stage 1:** There is no app. Cancelled passengers queue at the counter or call, service is by phone and counter only, and documents are checked by hand twice.
+- **Stage 2:** The app shows bookings and status only, and rebooking happens by call-back. Email help takes days, and kiosks exist but bags go to a staffed counter.
+- **Stage 3:** Passengers check in, get mobile boarding passes, change seats and rebook themselves online. Live chat runs in business hours, and self bag drop is available at most hubs.
+- **Stage 4:** Passengers are rebooked automatically and accept in the app, which also tracks bags live and sells extras. Messaging runs 24/7 and is linked to the booking, and some hubs offer a biometric or digital-ID option.
+- **Stage 5:** The same app flow issues vouchers and reroutes bags, and a personalized trip timeline adapts as the day changes. A virtual assistant completes routine requests end to end, and biometric processing covers all major hubs.
 
-### 3. Operational Automation
-- **Stage 1:** Staff and vehicles are scheduled by phone and a whiteboard, merchandise is reordered by calling the supplier when stock runs out, and insurance assignments are mailed as paper forms.
-- **Stage 2:** A shared digital calendar and inventory spreadsheet exist but are updated by hand. Insurance assignments are still paper but tracked in a shared log, and automation ideas come from individual staff.
-- **Stage 3:** Scheduling and inventory software run at each location with reorder points. Insurance assignments follow a templated digital process tracked to completion, and a named owner periodically looks for automation candidates.
-- **Stage 4:** Scheduling and inventory reordering are automated across all locations, and assignments for major carriers are automated with status on a dashboard. Automation targets come from structured cross-location review.
-- **Stage 5:** Staffing, vehicles and merchandise are planned from forecasted case volume and case mix. Insurance assignments run through direct carrier integration, and automation targets are found continuously from operational data.
+### 3. Operations & Disruption Automation
+- **Stage 1:** Crews are reassigned by phone and wait on hold, and aircraft turns run on radios and paper checklists. Bags carry paper tags and are traced by phone, and compensation claims arrive by letter.
+- **Stage 2:** Crew software is used for planning but not for disruption recovery, and turn tasks are logged after the fact. Bags are scanned only at check-in and loading, and online claims are all reviewed by hand.
+- **Stage 3:** Optimization software proposes crew reassignments for schedulers to approve, and ramp staff log turn milestones on tablets. Bags are scanned at every handover, and common claims are checked for eligibility automatically.
+- **Stage 4:** Most crew reassignments are generated automatically and accepted in an app, and turn milestones are captured by sensors with late alerts. Bags are tracked continuously with misconnect alerts, and cancellation refunds trigger without a claim.
+- **Stage 5:** Crew, aircraft and passenger plans are re-optimized together in real time, and staff are moved before a turn runs late. Misconnected bags are rerouted in advance, and all eligible compensation is paid automatically.
 
-### 4. Predictive & AI Deployment
-- **Stage 1:** Staffing reacts to whatever calls come in. There is no AI tool, and new tools are adopted only when a vendor pitches one.
-- **Stage 2:** Staffing follows a seasonal rule of thumb. A chatbot may sit on the website unmonitored, its output is looked at only if a family complains, and each location buys tools on its own.
-- **Stage 3:** A forecasting tool informs staffing at a location, and one AI use case is in production after a pre-launch review. A central person or committee prioritizes proposals.
-- **Stage 4:** Forecasting drives staffing and inventory across locations, and an AI family-engagement tool is in production with its usage and outcomes monitored. A named person or committee keeps reviewing it for grief-appropriate tone and accuracy, against a documented technology strategy.
-- **Stage 5:** Forecasts are checked against actual outcomes and drive staffing, inventory and marketing together. Multiple AI tools run under standing governance in which appropriateness review decides whether a tool stays in use, and the roadmap is refreshed from performance data and family feedback.
+### 4. AI & Predictive Decisioning
+- **Stage 1:** Fares come from fixed tables changed by hand, and the airline reacts to delays once they happen. There is no AI in customer communication and no model monitoring.
+- **Stage 2:** A traditional revenue-management system is adjusted by analysts, and controllers check weather by hand. A scripted FAQ bot answers fixed questions, and problems with any model are caught only by chance.
+- **Stage 3:** Revenue management uses demand forecasts, and dashboards show historical delay patterns. An AI assistant handles one defined task, and data scientists review models from time to time.
+- **Stage 4:** Machine learning sets continuous prices across most of the network, and a model predicts delays or misconnects hours ahead and triggers action. Generative AI drafts passenger messages within guidelines, and models are monitored automatically by named owners.
+- **Stage 5:** Personalized offers are built per customer and continuously A/B tested, and predictions drive automated network decisions with measured accuracy. Several AI assistants are monitored for accuracy and satisfaction under formal model governance.
 
-### 5. Organizational Change Capacity
-- **Stage 1:** Ownership or IT picks new technology without funeral directors, staff learn it on the job, and the old paper process stays in use indefinitely "just in case." Nobody manages change.
-- **Stage 2:** A few interested staff give informal input, there is one training session before go-live, and old processes fade out unevenly. Whoever leads a project handles the change work.
-- **Stage 3:** A formal process includes funeral directors and location managers before rollout, training includes a feedback window, and retiring the old process is part of the rollout plan. A defined change-management role exists.
-- **Stage 4:** Directors and location managers co-sponsor technology decisions, location-level champions support ongoing training and report into the change role, and retiring the old process is tracked as a success measure.
-- **Stage 5:** Leadership goals and evaluations are tied to technology adoption, and training is refined from usage data and staff feedback. The company has a track record of fully retiring old processes, with adoption outcomes measured across the network.
+### 5. Frontline Change Capacity
+- **Stage 1:** Headquarters picks tools and staff hear at go-live, training is a memo, and the old paper or phone process runs on indefinitely. Nobody manages the people side of change.
+- **Stage 2:** Staff are told in advance and asked for feedback after launch, and there is one training session. Old processes fade unevenly, and the project lead handles change work.
+- **Stage 3:** Frontline and union representatives help select and test tools, and training is hands-on with station super-users. The old process gets a formal retirement date, and a change-management role exists for major projects.
+- **Stage 4:** Frontline staff co-design tools, which are piloted at one station first, and champions at every base support ongoing training with usage tracked. Retirement of the old process is a measured success criterion.
+- **Stage 5:** A standing frontline innovation program exists, leaders' goals include adoption results, and training adapts from usage data. Past rollouts have fully retired old processes on schedule, and adoption is reported network-wide.
 
 ## Dimension calibration test
 
-| Dimension | Stage 5 reference (named organization) | Stage 1 reference |
-|-----------|-------------------|-------------------|
-| Case & Records Infrastructure | Service Corporation International (Dignity Memorial): centralized, company-wide case and preneed records | Archetype: a single-location, family-owned independent home that keeps each case in a paper folder, files death certificates in person or by mail, and stores preneed contracts in boxes |
-| Family Digital Engagement | Tulip Cremation / Eirene: full arrangement completed online | Archetype: an independent home whose only online presence is a directory listing with a phone number; payment by cash or check, no livestreaming |
-| Operational Automation | Large consolidators (e.g., SCI) with network-wide scheduling and procurement | Archetype: an independent home that schedules staff and the hearse on a whiteboard and reorders caskets by phoning the supplier |
-| Predictive & AI Deployment | Consolidated networks using volume forecasting for staffing and procurement | Most independent homes: purely reactive staffing |
-| Organizational Change Capacity | Networks running structured, champion-based rollouts of case-management software | Homes where a new system is bought but paper files are still kept in parallel |
+Real organizations at the low and high ends of each dimension, based on public reporting:
+
+| Dimension | Low end (Stage 1–2) | High end (Stage 4–5) |
+|-----------|---------------------|----------------------|
+| Passenger & Operations Data Integration | Southwest Airlines, Dec 2022: crew locations and assignments could not be matched to aircraft, so schedulers worked by phone | Delta Air Lines: bag, passenger and identity data connected across the app, RFID tracking and Digital ID |
+| Digital Passenger Journey | Carriers without an app or self bag drop (typical of small regional operators) | Delta Air Lines: in-app bag tracking and biometric Digital ID from bag drop to boarding at major hubs |
+| Operations & Disruption Automation | Southwest Airlines, Dec 2022: crew recovery by phone, with hours-long hold times | Delta Air Lines: RFID bag tracking since 2016; American Airlines: automated gate and hub tools (Smart Gating, HEAT) |
+| AI & Predictive Decisioning | Carriers using fixed fare tables and reactive delay handling | Alaska Airlines (Flyways AI route planning), United Airlines (ConnectionSaver; AI-drafted delay messages) |
+| Frontline Change Capacity | Southwest Airlines: pilot and flight-attendant unions had publicly warned about the scheduling system before the 2022 collapse | *Team to verify a named example; the Stage 4–5 criteria above define what to look for* |
 
 ---
 
 # Interpretation Guide
 
-**How the tool scores.** Every answer option carries an integer value from 1 to 5. Each dimension score is the plain average of its four answers, so scores fall on quarter steps (1.00, 1.25 … 5.00). The results panel always names the two lowest-scoring dimensions. If two or more dimensions tie for lowest, it names all of them, and it never breaks a tie by list order. It then chooses **one** profile using the rules below.
+**How the tool scores.** Every answer carries an integer value from 1 to 5. A dimension score is the average of its four answers, so scores move in steps of 0.25. The results always name the two lowest dimensions. If two or more tie for lowest, all tied dimensions are shown, and a tie is never broken by list order.
 
-**Profile selection order.**
-1. If every dimension is **≤ 2.5** → *The Traditional Home*.
-2. Otherwise, if every dimension is **≥ 3.5** → *Digital-Native Network*.
-3. Otherwise, each single-dimension gap pattern whose condition holds is a candidate. The dimension must be "among the lowest," meaning at or below the second-lowest score, so ties at the cutoff count. If several apply, the one on the **lowest-scoring dimension** wins. Next comes the **largest gap below the others**, and finally the industry priority *Records → Change → AI*: in deathcare, broken records create legal and compliance risk before anything else.
-4. If nothing matches → *No Dominant Pattern* (fallback).
+**Which profile is shown**
+1. **Uniform shapes first.** If every dimension is ≤ 2.5, show *Grounded Legacy Carrier*. If every dimension is ≥ 3.5, show *Digitally Airborne Network*.
+2. **Otherwise, pattern profiles.** The candidates are *Siloed Flight Deck*, *Tools the Frontline Won't Fly* and *Slick App, Legacy Brain*. The one whose key dimension scores lowest wins.
+3. **If tied, the airline priority decides.** *Data* comes first, because every recovery tool depends on it. *Change* comes second, because unionized, safety-critical crews route around imposed tools. *Customer vs AI gap* comes third.
+4. **If no archetype matches,** the tool says so and lists concrete next steps for the lowest dimensions.
 
 The names, patterns, descriptions and actions below match the tool's `PROFILES` data word for word.
 
-### 1. The Traditional Home: uniformly low
-**Pattern:** Every dimension scores 2.5 or below (the Stage 1–2 band).
+### 1. Grounded Legacy Carrier: uniformly low
+**Pattern:** Every dimension scores 2.5 or below.
 
-The organization hasn't built the basic case-management or family-facing infrastructure that later-stage capability depends on. Investing in AI or forecasting tools now would be premature.
+The airline still runs on phones, paper and disconnected systems, so a single storm can cascade into days of recovery. Investing in AI or a flashier app now would sit on foundations that cannot feed it.
 
-**Next action:** Build a real case management system and basic family-facing website and obituary tools first.
+**Next action:** Fund an integrated operations-and-crew data platform first, with crew recovery moved off the phone as its first use case.
 
-### 2. Digital-Native Network: uniformly high
-**Pattern:** Every dimension scores 3.5 or above (solidly Stage 4 or better).
+### 2. Digitally Airborne Network: uniformly high
+**Pattern:** Every dimension scores 3.5 or above.
 
-Real capability across the board, but in this industry the risk isn't a capability gap; it's over-automating a business whose actual product is a trusted human relationship during grief. The next frontier is judgment rather than more technology: using the unified family record to time and personalize aftercare and preneed outreach in ways grieving families welcome.
+Capability is strong across the board; the gap to close is no longer technology but speed of learning. The next frontier is closing the loop: using predictions to re-plan the whole network automatically and personalizing every passenger's day of travel.
 
-**Next action:** Benchmark family satisfaction, not just efficiency metrics, against peer networks to check whether automation has quietly eroded the personal touch.
+**Next action:** Set a network-wide target for disruptions resolved without a human touch, and track it alongside on-time performance and satisfaction.
 
-### 3. Elegant Front, Broken Back Office: Case & Records Infrastructure lags
-**Pattern:** Case & Records Infrastructure is among the lowest-scoring dimensions and at least 1.0 point below the average of the other four.
+### 3. Siloed Flight Deck: data lags everything else
+**Pattern:** Passenger & Operations Data Integration is the lowest dimension (ties allowed) and at least 1.0 point below the average of the other four.
 
-Even where family-facing tools exist, the case records underneath are fragmented. That creates real legal and compliance risk (misfiled permits, lost preneed contracts) and undermines any forecasting or AI built on top of those records.
+Good tools sit on top of data that does not connect: ops control, crew scheduling and customer service each see a different version of the day. This is the pattern behind cascading meltdowns, and it caps what any AI or app can do.
 
-**Next action:** Fix records infrastructure before any further family-facing or AI investment.
+**Next action:** Stop adding new front-end or AI projects until reservation, crew and aircraft-status data flow into one shared, near-real-time operational picture.
 
-### 4. Digitalized but Not Predictive: high Family Digital Engagement, low AI
-**Pattern:** Family Digital Engagement scores 4.0 or above, while Predictive & AI Deployment scores 2.5 or below and is among the lowest-scoring dimensions.
+### 4. Slick App, Legacy Brain: digitalized but not transforming
+**Pattern:** Digital Passenger Journey scores 3.5 or above while AI & Predictive Decisioning scores 2.5 or below.
 
-Families get a modern digital experience (livestream, online obituary, digital payment), but nothing behind the scenes uses forecasting or engagement intelligence. It's a nicer surface on the same underlying operations.
+Passengers see a modern airline, but decisions behind the app are still made by hand and after the fact. The airline is digitalized, not transformed: the app reports a disruption well but cannot prevent one.
 
-**Next action:** Pilot a case-volume forecasting tool to inform staffing before adding more family-facing features.
+**Next action:** Pilot a disruption-prediction model that triggers proactive rebooking in the existing app, and measure misconnects avoided.
 
-### 5. Technology Nobody Asked For: the execution gap
-**Pattern:** Organizational Change Capacity is among the lowest-scoring dimensions and at least 1.0 point below the average of the other four.
+### 5. Tools the Frontline Won't Fly: the execution gap
+**Pattern:** Frontline Change Capacity is the lowest dimension (ties allowed) and at least 1.0 point below the average of the other four.
 
-Family trust depends on funeral directors feeling ownership over how technology touches grieving families. When change capacity lags, new systems get imposed without buy-in and staff quietly route around them, in a business where the frontline relationship is the value proposition.
+The airline buys capable systems, but crews and agents keep the old workarounds. In a unionized, safety-critical workforce, tools imposed without frontline ownership are routed around, and the capability on paper never shows up on the ramp.
 
-**Next action:** Invest in change sponsorship from funeral directors and location managers before rolling out further tools.
-
-### Fallback: No Dominant Pattern
-**Pattern:** None of the five archetype patterns applies.
-
-Scores are neither uniformly low nor uniformly high, and none of the three single-dimension gap patterns fits. The lowest-scoring dimensions the tool names are the best guide to where to invest next.
-
-**Next action:** Raise the lowest-scoring dimension by one full stage before adding capability to the highest-scoring one.
+**Next action:** Before the next rollout, name frontline and union co-sponsors, pilot at one station, and make retiring the old process a go-live criterion.
